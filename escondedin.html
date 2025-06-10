@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>escondedin - Portfólio de Parcerias</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom colors from the logo palette */
+        .bg-brand-dark-green { background-color: #132b23; }
+        .text-brand-gold { color: #c5a76f; }
+        .bg-brand-gold { background-color: #c5a76f; }
+        .border-brand-gold { border-color: #c5a76f; }
+        .ring-brand-gold { --tw-ring-color: #c5a76f; }
+        
+        /* Simple scroll reveal animation */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-brand-dark-green text-gray-200">
+
+    <!-- Hero Section -->
+    <header class="min-h-screen flex flex-col items-center justify-center text-center p-8 bg-brand-dark-green">
+        <div class="max-w-2xl">
+            <img src="logo.png" alt="Logo escondedin" class="w-96 h-96 mx-auto mb-8"
+                 onerror="this.onerror=null;this.src='https://placehold.co/384x384/132b23/c5a76f?text=escondedin';">
+            <p class="text-lg md:text-xl text-gray-300 mb-8">Conectando marcas a pessoas através de experiências urbanas inesquecíveis.</p>
+            <a href="#contato" class="bg-brand-gold text-brand-dark-green font-bold py-3 px-8 rounded-lg text-lg hover:bg-opacity-90 transition-colors">
+                Seja um Parceiro
+            </a>
+        </div>
+    </header>
+
+    <main class="w-full">
+        <!-- O que é o escondedin? Section -->
+        <section id="o-que-e" class="py-12 bg-gray-100 text-gray-800">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 reveal">O que é o <span class="text-brand-gold">escondedin</span>?</h2>
+                <p class="max-w-3xl mx-auto text-lg mb-8 reveal">
+                    É uma caça ao tesouro moderna. Escondemos adesivos premiados pela cidade e divulgamos dicas no Instagram. Nossos seguidores exploram a cidade para encontrar os adesivos, e ao encontrarem, ganham prêmios incríveis. Uma aventura que transforma o cenário urbano em um grande tabuleiro de jogo.
+                </p>
+                <div class="grid md:grid-cols-4 gap-8 text-center">
+                    <div class="bg-white p-6 rounded-xl shadow-lg reveal">
+                        <div class="text-brand-gold text-5xl mb-4">📍</div>
+                        <h3 class="text-xl font-semibold mb-2">1. O Desafio</h3>
+                        <p>Escondemos um adesivo ou voucher em um ponto da cidade.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg reveal" style="transition-delay: 100ms;">
+                         <div class="text-brand-gold text-5xl mb-4">📱</div>
+                        <h3 class="text-xl font-semibold mb-2">2. A Dica</h3>
+                        <p>Postamos um enigma ou dica em nosso Instagram.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg reveal" style="transition-delay: 200ms;">
+                         <div class="text-brand-gold text-5xl mb-4">🏃‍♂️</div>
+                        <h3 class="text-xl font-semibold mb-2">3. A Caçada</h3>
+                        <p>Seguidores saem às ruas para encontrar o prêmio.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg reveal" style="transition-delay: 300ms;">
+                         <div class="text-brand-gold text-5xl mb-4">🏆</div>
+                        <h3 class="text-xl font-semibold mb-2">4. A Recompensa</h3>
+                        <p>Quem acha, posta, nos marca e ganha o prêmio na hora.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Por que ser um Parceiro? Section -->
+        <section id="beneficios" class="py-12 bg-brand-dark-green">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 text-brand-gold reveal">Por que sua Marca deve ser Parceira?</h2>
+                <div class="grid md:grid-cols-2 gap-10">
+                    <div class="reveal">
+                        <h3 class="text-2xl font-bold text-gray-100 mb-3">Marketing de Guerrilha Autêntico</h3>
+                        <p class="text-gray-300">Fuja do óbvio. Nossas ações geram buzz e mídia espontânea de uma forma que anúncios tradicionais não conseguem. Sua marca se torna o assunto da cidade.</p>
+                    </div>
+                    <div class="reveal">
+                        <h3 class="text-2xl font-bold text-gray-100 mb-3">Engajamento Real e Tráfego Orgânico</h3>
+                        <p class="text-gray-300">Cada desafio gera uma onda de conteúdo criado pelos usuários (UGC). São dezenas de stories e publicações marcando seu perfil, alcançando milhares de pessoas de forma orgânica.</p>
+                    </div>
+                    <div class="reveal">
+                        <h3 class="text-2xl font-bold text-gray-100 mb-3">Associação Positiva da Marca</h3>
+                        <p class="text-gray-300">Sua marca não está apenas anunciando, está proporcionando um momento de diversão, aventura e recompensa. Criamos memórias afetivas que conectam o público à sua empresa.</p>
+                    </div>
+                    <div class="reveal">
+                        <h3 class="text-2xl font-bold text-gray-100 mb-3">Alcance Local e Hiper-Segmentado</h3>
+                        <p class="text-gray-300">Fale diretamente com o público da sua cidade (atualmente em Trancoso, BA). Direcionamos a atenção de centenas de moradores e turistas para o seu negócio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modelos de Parceria Section -->
+        <section id="parceria" class="py-12 bg-gray-100 text-gray-800">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 reveal">Modelos de Parceria</h2>
+                <div class="flex flex-col md:flex-row justify-center gap-8">
+                    <!-- Card Permuta -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-brand-gold w-full md:w-1/3 reveal">
+                        <h3 class="text-2xl font-bold text-brand-gold mb-4">Parceria por Permuta</h3>
+                        <p class="mb-6">Sua empresa oferece um produto ou serviço como prêmio e nós criamos o desafio.</p>
+                        <p class="font-semibold mb-2">Ideal para:</p>
+                        <ul class="list-disc list-inside text-left">
+                            <li>Vouchers de consumo</li>
+                            <li>Produtos físicos</li>
+                            <li>Cortesias de serviços</li>
+                            <li>Mensalidades (academias, etc)</li>
+                        </ul>
+                        <p class="mt-4"><strong>O que você ganha:</strong> Divulgação completa do desafio, com sua marca em destaque nos nossos stories e reels.</p>
+                    </div>
+
+                    <!-- Card Publicidade -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-brand-gold w-full md:w-1/3 reveal" style="transition-delay: 200ms;">
+                        <h3 class="text-2xl font-bold text-brand-gold mb-4">Campanha Publicitária</h3>
+                        <p class="mb-6">Além de patrocinar o prêmio em dinheiro (PIX), investimos em publicidade para impulsionar ainda mais o alcance.</p>
+                        <p class="font-semibold mb-2">Ideal para:</p>
+                        <ul class="list-disc list-inside text-left">
+                            <li>Lançamentos de produtos</li>
+                            <li>Eventos e inaugurações</li>
+                            <li>Fortalecimento de marca</li>
+                            <li>Ações sazonais</li>
+                        </ul>
+                        <p class="mt-4"><strong>O que você ganha:</strong> Uma campanha completa, com posts patrocinados, reels dedicados e menções estratégicas para um público amplo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expansão Section -->
+        <section class="py-12 bg-brand-dark-green">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-brand-gold mb-4 reveal">Visão de Futuro</h2>
+                <p class="max-w-3xl mx-auto text-lg text-gray-300 reveal">
+                    Começamos em Trancoso, um dos destinos mais vibrantes do Brasil, mas nosso plano é levar a caçada para todo o país. Ao se tornar nosso parceiro agora, você se junta a um projeto com enorme potencial de crescimento e visibilidade nacional.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contato Section -->
+        <section id="contato" class="py-12 bg-gray-100">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4 reveal">Vamos conversar?</h2>
+                <p class="max-w-2xl mx-auto text-lg text-gray-600 mb-8 reveal">
+                    Estamos prontos para criar uma campanha memorável para sua marca. Entre em contato e vamos juntos transformar as ruas em uma grande vitrine para o seu negócio.
+                </p>
+                <div class="reveal">
+                    <a href="https://www.instagram.com/escondedin" target="_blank" class="bg-brand-gold text-brand-dark-green font-bold py-4 px-8 rounded-lg text-lg hover:bg-opacity-90 transition-colors inline-block">
+                        Fale conosco pelo Instagram
+                    </a>
+                    <p class="mt-4 text-gray-500">ou envie um e-mail para: <span class="font-semibold">parcerias@escondedin.com</span></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-brand-dark-green py-6">
+        <div class="container mx-auto text-center text-gray-400">
+            <p>&copy; 2024 escondedin. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+    // Simple scroll reveal effect
+    document.addEventListener("DOMContentLoaded", function() {
+        const revealElements = document.querySelectorAll('.reveal');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        revealElements.forEach(elem => {
+            observer.observe(elem);
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    });
+    </script>
+
+</body>
+</html>
